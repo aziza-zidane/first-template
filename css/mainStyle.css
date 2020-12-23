@@ -27,12 +27,12 @@ header .btn-start {border-radius: 0}
 
 /* START SOCIAL MEDIA */
 .social-media {
-    
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
 }
-.social-media i {  padding: 10px}
+.social-media i {  padding: 10px;cursor: pointer; transition: .5s; } 
+.social-media i:hover{ border: 2px solid var(--mainColor); color: var(--mainColor);} 
 
 /* END SOCIAL MEDIA */
 /* START TAbs */
@@ -45,6 +45,9 @@ header .btn-start {border-radius: 0}
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+}
+.tabs li:hover{
+ background-color: #111
 }
 
 /* START TAbs */
@@ -106,7 +109,11 @@ header .btn-start {border-radius: 0}
  .contact-us textarea{height: 157px; margin-bottom: 10px}
 /* CONTACT US */
 /* START FOOTER */
-footer i{ margin-right: 20px;}
+footer i{ margin-right: 20px; cursor: pointer;}
+footer i:hover{
+    color: var(--mainColor);
+    
+}
 /* START FOOTER */
 /* SATRT GROPING */
 .navbar-brand span,header h1 span,header h4 span,.sublist i, .features i
@@ -122,8 +129,6 @@ footer i{ margin-right: 20px;}
 
 
 p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
-
-
 
 /* END GROPING */
 
@@ -157,9 +162,6 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
     width: 100%;
     margin: 0 auto 20px;
  }
- 
- 
- 
  
 /* START MEDIA QUIRY */
 
