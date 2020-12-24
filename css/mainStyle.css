@@ -17,11 +17,25 @@ body {padding-top: 60px;}
 header {
     background-image: url("/images/back-header.jpg");
     background-size: cover;
-    position: relative
+    position: relative;
+    height: 100vh;
+   
 }
 header h3 {letter-spacing: 2px; font-size: 30px}
 header form {width: 400px; box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.42)}
-header .form-control { width: 80%}
+ 
+ header  form .form-control {
+    border: none;
+    border-bottom: 1px solid #939699;
+    border-radius: 0;
+    width: 80%;
+    margin: 0 auto 20px;
+    
+    
+ }
+
+
+
 header .btn-start {border-radius: 0}
 /* END HEADER */
 
@@ -155,17 +169,11 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
 }
  
  .btn-outline-warning { margin-top: 20px;margin-bottom: 30px;width: 150px }
- .form-control {
-    border: none;
-    border-bottom: 1px solid #939699;
-    border-radius: 0;
-    width: 100%;
-    margin: 0 auto 20px;
- }
  
 /* START MEDIA QUIRY */
 
 @media (max-width: 574px){
+
     header h1{
        font-size:2rem;
       
@@ -177,12 +185,8 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
      header p{
          line-height: 1.5;
      } 
-     .btn-outline-warning{
-         margin-top: 10px;
-     } 
-     header .form-control{margin: 0 auto  }
-    header form{height: 200px ;width: 90%; box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.42)}   
-    header .form-control{margin: 0 auto 10px }
+    
+
     .our-project{
         padding: 40px 0 40px
     }
@@ -198,10 +202,10 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
     }
     header .overlay{ padding-top: 25px}
 }
+
 @media (min-width: 575px) and (max-width: 767px) {
-    header form{height: 215px ;width: 80%; box-shadow: 10px 10px 5px 0px rgba(0, 
+    header form{width: 80%; box-shadow: 10px 10px 5px 0px rgba(0, 
         0, 0, 0.42)}   
-         header .form-control{margin: 0 auto 15px }
          .tabs li{
             width: 33.3333%;
             height: 50px;
@@ -212,9 +216,10 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
     
 }
 @media(min-width:768px) and (max-width:991px){
-    header form{height: 200px ;width: 80%; box-shadow: 10px 10px 5px 0px rgba(0, 
+    header form{ width: 80%;
+         box-shadow: 10px 10px 5px 0px rgba(0, 
         0, 0, 0.42)}   
-         header .form-control{margin: 0 auto 15px }
+        
          .tabs li{
             width: 33.3333%;
             height: 50px;

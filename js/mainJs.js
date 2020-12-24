@@ -38,8 +38,34 @@ allTABS.forEach(element => {
         e.target.classList.add("active")
         tabs.classList.remove("d-none")
         tabs.classList.add("d-block")
-    })    
-
-     
+    })     
 });
- 
+
+var myForm = document.querySelector("form");
+var textHeader = document.querySelector(".text-header").offsetHeight;
+
+
+    myForm.style.height = (window.innerHeight - textHeader - 100) + "px"
+    console.log(textHeader)
+  
+  
+
+
+// var mediaQueryList = window.matchMedia('(max-width:991px)');
+// 
+// function screenTest(e) {
+//   if (e.matches) {
+    // /* the viewport is 600 pixels wide or less */
+    //   myForm.style.height = (window.innerHeight - textHeader - 40) + "px"
+    //   console.log('yes')
+    // 
+//   } else {
+    // /* the viewport is more than than 600 pixels wide */
+    // 
+    // myForm.style.height = (window.innerHeight - textHeader)+"px"
+    // 
+    //  
+//   }
+// }
+// 
+// mediaQueryList.addListener(screenTest);
