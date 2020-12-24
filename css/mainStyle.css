@@ -1,5 +1,5 @@
 /* GLOBAL STYLE */
-body {padding-top: 60px}
+body {padding-top: 60px;}
 :root { --mainColor:#ff8b38}
 
 /* GLOBAL STYLE */
@@ -183,6 +183,13 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
      header .form-control{margin: 0 auto  }
     header form{height: 200px ;width: 90%; box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.42)}   
     header .form-control{margin: 0 auto 10px }
+    .our-project{
+        padding: 40px 0 40px
+    }
+    .our-project .overlay{
+        padding: 40px 0 40px
+    }
+
     .tabs li{
         width: 33.3333%;
         height: 50px;
