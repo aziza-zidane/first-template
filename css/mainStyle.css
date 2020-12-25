@@ -11,6 +11,7 @@ body {padding-top: 60px;}
 .bg-transparant {background-color: rgba(1, 1, 1, 0.493)}
 .navbar-collapse {flex-grow: 0}
 .navbar-nav{  align-items: center}
+ .fixed-top{width: 100%;}
 /* END NAVBAR */
 
 /* START HEADER */
@@ -23,6 +24,7 @@ header {
 }
 header h3 {letter-spacing: 2px; font-size: 30px}
 header form {width: 400px; box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.42)}
+
  
  header  form .form-control {
     border: none;
@@ -30,9 +32,7 @@ header form {width: 400px; box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.42)}
     border-radius: 0;
     width: 80%;
     margin: 0 auto 20px;
-    
-    
- }
+}
 
 
 
@@ -168,11 +168,20 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
     background: rgba(1,1,1,0.8);
 }
  
- .btn-outline-warning { margin-top: 20px;margin-bottom: 30px;width: 150px }
+ .btn-outline-warning { margin-top: 20px;margin-bottom: 20px;width: 150px }
  
 /* START MEDIA QUIRY */
 
 @media (max-width: 574px){
+    .btn-outline-warning { margin-top: 10px;margin-bottom: 20px;width: 150px 
+    }
+   
+    header .overlay{
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+    header form {width: 90%; padding: 10px; height: 90%;}
+    header  form .form-control{margin-bottom: 5px;}
 
     header h1{
        font-size:2rem;
@@ -200,7 +209,7 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
         line-height: 50px;
         border-radius: 0
     }
-    header .overlay{ padding-top: 25px}
+
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
