@@ -1,17 +1,44 @@
 /* GLOBAL STYLE */
-body {padding-top: 60px;}
-:root { --mainColor:#ff8b38}
+body {
+    padding-top: 60px;
+}
+
+:root {
+    --mainColor: #ff8b38
+}
 
 /* GLOBAL STYLE */
 
 /* START NAVBAR */
-.navbar-brand {font-size: 20px; letter-spacing: 2px}
-.navbar-dark .navbar-nav .active>.nav-link{color: var(--mainColor);}
-.navbar-dark .navbar-nav .nav-link{color:#fff}
-.bg-transparant {background-color: rgba(1, 1, 1, 0.493)}
-.navbar-collapse {flex-grow: 0}
-.navbar-nav{  align-items: center}
- .fixed-top{width: 100%;}
+.navbar-brand {
+    font-size: 20px;
+    letter-spacing: 2px
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: var(--mainColor);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff
+}
+
+.bg-transparant {
+    background-color: rgba(1, 1, 1, 0.493)
+}
+
+.navbar-collapse {
+    flex-grow: 0
+}
+
+.navbar-nav {
+    align-items: center
+}
+
+.fixed-top {
+    width: 100%;
+}
+
 /* END NAVBAR */
 
 /* START HEADER */
@@ -20,13 +47,21 @@ header {
     background-size: cover;
     position: relative;
     height: 100vh;
-   
-}
-header h3 {letter-spacing: 2px; font-size: 30px}
-header form {width: 400px; box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.42)}
 
- 
- header  form .form-control {
+}
+
+header h3 {
+    letter-spacing: 2px;
+    font-size: 30px
+}
+
+header form {
+    width: 400px;
+    box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.42)
+}
+
+
+header form .form-control {
     border: none;
     border-bottom: 1px solid #939699;
     border-radius: 0;
@@ -36,7 +71,10 @@ header form {width: 400px; box-shadow: -10px -10px 5px 0px rgba(0, 0, 0, 0.42)}
 
 
 
-header .btn-start {border-radius: 0}
+header .btn-start {
+    border-radius: 0
+}
+
 /* END HEADER */
 
 /* START SOCIAL MEDIA */
@@ -45,33 +83,49 @@ header .btn-start {border-radius: 0}
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.42);
 }
-.social-media i {  padding: 10px;cursor: pointer; transition: .5s; } 
-.social-media i:hover{ border: 2px solid var(--mainColor); color: var(--mainColor);} 
+
+.social-media i {
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social-media i:hover {
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+}
 
 /* END SOCIAL MEDIA */
 /* START TAbs */
-.tabs li{
+.tabs li {
     width: 100px;
     height: 100px;
-    margin:0 auto 10px;
+    margin: 0 auto 10px;
     background-color: #323233;
     line-height: 100px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
 }
-.tabs li:hover{
- background-color: #111
+
+.tabs li:hover {
+    background-color: #111
 }
 
 /* START TAbs */
 /*  START SUBLIST  */
-.sublist i{width: 100px}
+.sublist i {
+    width: 100px
+}
+
 /*  END SUBLIST  */
 
 /*  START FEATURES */
-.features h5 { padding-bottom: 20px }
-.features i{
+.features h5 {
+    padding-bottom: 20px
+}
+
+.features i {
     margin-top: 40px;
     margin-bottom: 20px;
     width: 60px;
@@ -80,84 +134,147 @@ header .btn-start {border-radius: 0}
     border: 2px solid var(--mainColor);
 
 }
+
 /*  END FEATURES */
 
 /* START TABLE PRICE */
 
-.table-price .content-title{ padding: 10px 0 0;}
-.table-price .content-title h5{ padding: 10px 0}
-.table-price .content-title h6{  padding: 10px  0; font-size: 50px}
-.table-price  .title-price{ padding: 5px}
-.table-price  li{ padding: 10px 0; border-bottom:  1px solid #939699}                                  
+.table-price .content-title {
+    padding: 10px 0 0;
+}
+
+.table-price .content-title h5 {
+    padding: 10px 0
+}
+
+.table-price .content-title h6 {
+    padding: 10px 0;
+    font-size: 50px
+}
+
+.table-price .title-price {
+    padding: 5px
+}
+
+.table-price li {
+    padding: 10px 0;
+    border-bottom: 1px solid #939699
+}
+
 /* END TABLE PRICE */
 
 /* START TESTIMONIAL */
-.testimonial .bak-gree{position: relative}
-.testimonial .bak-gree::after{
+.testimonial .bak-gree {
+    position: relative
+}
+
+.testimonial .bak-gree::after {
     content: "";
     position: absolute;
     display: block;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 15px 15px  15px 15px;
-    border-color:  #eee transparent transparent;
+    border-width: 15px 15px 15px 15px;
+    border-color: #eee transparent transparent;
     bottom: -30px;
     left: 0px
-
 }
 
 /* END TESIMONIAL */
 /* START PROJECT */
-.our-project{
+.our-project {
     background-image: url("/images/back-6.jpg");
     background-size: cover;
     position: relative;
     color: #fff;
     min-height: 350px;
 }
- .our-project .aling-headding::after{ background-color: #fff}
- /* END PROJECT */
+
+.our-project .aling-headding::after {
+    background-color: #fff
+}
+
+/* END PROJECT */
 /* CONTACT US */
 
- .contact-us textarea{height: 157px; margin-bottom: 10px}
+.contact-us textarea {
+    height: 157px;
+    margin-bottom: 10px
+}
+
 /* CONTACT US */
 /* START FOOTER */
-footer i{ margin-right: 20px; cursor: pointer;}
-footer i:hover{
-    color: var(--mainColor);
-    
+footer i {
+    margin-right: 20px;
+    cursor: pointer;
 }
+
+footer i:hover {
+    color: var(--mainColor);
+
+}
+
 /* START FOOTER */
 /* SATRT GROPING */
-.navbar-brand span,header h1 span,header h4 span,.sublist i, .features i
- { color: var(--mainColor)}
+.navbar-brand span,
+header h1 span,
+header h4 span,
+.sublist i,
+.features i {
+    color: var(--mainColor)
+}
 
-.features, .picture, .table-price, .sublist, .tabs,
- .testimonial , .contact-us, .our-project .overlay 
-{ padding: 80px 0 60px}
+.features,
+.picture,
+.table-price,
+.sublist,
+.tabs,
+.testimonial,
+.contact-us,
+.our-project .overlay {
+    padding: 80px 0 60px
+}
 
-.tabs li.active,header .btn-start ,.sublist h5::after,.picture h5::after ,
-.features h2::after, .table-price h2::after, .table-price .title-price
-{background-color: var(--mainColor)}
+.tabs li.active,
+header .btn-start,
+.sublist h5::after,
+.picture h5::after,
+.features h2::after,
+.table-price h2::after,
+.table-price .title-price {
+    background-color: var(--mainColor)
+}
 
 
-p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
+p,
+.testimonial span,
+.social-media i,
+.table-price li {
+    color: #939699
+}
 
 /* END GROPING */
 
 /* START MY FREAMWORK */
-.aling-headding{padding-bottom: 20px ;}
-.aling-headding::after{
-   content: "";
-   width: 50px;
-   height: 3px;
-   background-color: var(--mainColor);
-   display: block;
-   margin: 30px auto 0
-   }
- .bak-gree{ background-color: #eee}
- .overlay{
+.aling-headding {
+    padding-bottom: 20px;
+}
+
+.aling-headding::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: var(--mainColor);
+    display: block;
+    margin: 30px auto 0
+}
+
+.bak-gree {
+    background-color: #eee
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -165,93 +282,98 @@ p ,.testimonial span, .social-media i , .table-price  li{ color: #939699}
     right: 0;
     width: 100%;
     height: 100%;
-    background: rgba(1,1,1,0.8);
+    background: rgba(1, 1, 1, 0.8);
 }
- 
- .btn-outline-warning { margin-top: 20px;margin-bottom: 20px;width: 150px }
- 
+.btn-outline-warning {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px
+}
 /* START MEDIA QUIRY */
 
-@media (max-width: 400px){
-    header form{display: none;}
-   
+@media (max-width: 400px) {
+    header form {
+        display: none;
     }
-@media  (min-width: 401px) and (max-width: 574px){
-     
-    
-   
-    header .overlay{
-        padding-top: 5px;
-        padding-bottom: 0;
+    header h3 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
-    header form {width: 90%; padding: 10px; height: 90%;}
-    header  form .form-control{margin-bottom: 5px;}
+    header p {
+        line-height: 2;
+    }
+    .our-project .overlay {
+        padding: 20px 0 10px;
+    }
 
-    header h1{
-       font-size:2rem;
-      
+}
+
+@media (min-width: 401px) and (max-width: 574px) {
+    header form {
+        width: 90%;
+        padding: 10px;
+        height: 90%;
+        margin-top: 10px;
+        margin-bottom: 2rem;
     }
-    header h3{
+
+    header form .form-control {
+        margin-top: 10px;
+    }
+
+    header h3 {
         line-height: 1.3;
-        font-size:1.5rem;
-     }
-     header p{
-         line-height: 1.5;
-     } 
-    
-
-    .our-project{
-        padding: 40px 0 40px
+        font-size: 1.5rem;
     }
-    .our-project .overlay{
+    header p {
+        line-height: 1.5;
+    }
+   .our-project .overlay {
         padding: 40px 0 40px
     }
 
-    .tabs li{
+    .tabs li {
+        width: 33.3333%;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0
+    }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+    header form {
+        width: 80%;
+        box-shadow: 10px 10px 5px 0px rgba(0,
+                0, 0, 0.42)
+    }
+
+    .tabs li {
         width: 33.3333%;
         height: 50px;
         line-height: 50px;
         border-radius: 0
     }
 
+    header .overlay {
+        padding-top: 25px
+    }
+
 }
 
-@media (min-width: 575px) and (max-width: 767px) {
-    header form{width: 80%; box-shadow: 10px 10px 5px 0px rgba(0, 
-        0, 0, 0.42)}   
-         .tabs li{
-            width: 33.3333%;
-            height: 50px;
-            line-height: 50px;
-            border-radius: 0
-        }
-        header .overlay{ padding-top: 25px}
-    
+@media(min-width:768px) and (max-width:991px) {
+    header form {
+        width: 80%;
+        box-shadow: 10px 10px 5px 0px rgba(0,
+                0, 0, 0.42)
+    }
+
+    .tabs li {
+        width: 33.3333%;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0
+    }
 }
-@media(min-width:768px) and (max-width:991px){
-    header form{ width: 80%;
-         box-shadow: 10px 10px 5px 0px rgba(0, 
-        0, 0, 0.42)}   
-        
-         .tabs li{
-            width: 33.3333%;
-            height: 50px;
-            line-height: 50px;
-            border-radius: 0
-     }
-}
-@media(min-width:992px) and (max-width:1199px){
-    
-}
+
 /* END  MEDIA QUIRY */
-
-
-
-
-
-
-
-
-
-
-
